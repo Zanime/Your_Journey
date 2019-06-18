@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A1B9A"
+    tools:context=".DirectoryActivity">
+
+
+    <TextView
+        android:id="@+id/stationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="60dp"
+        android:text="Station Name"
+        android:textColor="#F3E5F5"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/busiestTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stationName"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="10dp"
+        android:text="Busiest Times:"
+        android:textColor="#F3E5F5"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busiestTimes"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="70dp"
+        android:text="Time"
+        android:textColor="#F3E5F5"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/linesAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="10dp"
+        android:text="Lines Available:"
+        android:textColor="#F3E5F5"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/lines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linesAvailable"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="70dp"
+        android:textColor="#F3E5F5"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/accessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lines"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="32dp"
+        android:text="Accessibility:"
+        android:textColor="#F3E5F5"
+        android:textSize="33sp" />
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#6A1B9A"
+        android:paddingLeft="8dp"
+        android:text="Back To Main Page"
+        android:textColor="#F3E5F5"
+        android:textSize="26sp" />
+
+
+</RelativeLayout>

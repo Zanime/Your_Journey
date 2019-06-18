@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955179049389",
+    "firebase_url": "https://your-journey-e6ab9.firebaseio.com",
+    "project_id": "your-journey-e6ab9",
+    "storage_bucket": "your-journey-e6ab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955179049389:android:63630d71be946907",
+        "android_client_info": {
+          "package_name": "com.imperial.london.yourjourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955179049389-dafm2qk9rhdkat65u1o6015n3gqhti30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ6pGw98DIZSyQOu01vwN2OCilmGN5EJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955179049389-dafm2qk9rhdkat65u1o6015n3gqhti30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

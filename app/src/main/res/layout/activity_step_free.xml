@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A1B9A"
+    tools:context=".DirectoryActivity">
+
+    <TextView
+        android:id="@+id/stepFreeQuestionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="100dp"
+        android:paddingBottom="100dp"
+        android:text="Please Select Step Preference"
+        android:textColor="#F3E5F5"
+        android:textSize="32sp" />
+
+
+    <RadioGroup
+        android:id="@+id/stepRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepFreeQuestionTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="20dp">
+
+        <RadioButton
+            android:id="@+id/noPrefRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="rbClick"
+            android:text="No Requirements"
+            android:textColor="#F3E5F5"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/escalatorRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="rbClick"
+            android:text="No Escalators"
+            android:textColor="#F3E5F5"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/stairRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="rbClick"
+            android:text="No Stairs"
+            android:textColor="#F3E5F5"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/stepFreeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="rbClick"
+            android:text="Step Free to Platform"
+            android:textColor="#F3E5F5"
+            android:textSize="24sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/stepGoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:padding="16dp"
+        android:text="go"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/stepSkipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:background="#6A1B9A"
+        android:text="Skip"
+        android:textColor="#F3E5F5"
+        android:textSize="26sp" />
+
+
+</RelativeLayout>
+

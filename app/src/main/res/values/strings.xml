@@ -1,0 +1,338 @@
+<resources>
+    <string name="app_name">Your Journey</string>
+
+    <string-array name="stationList">
+        <item>Select Station</item>
+        <item>Aldgate</item>
+        <item>Aldgate East</item>
+        <item>Angel</item>
+        <item>Baker Street</item>
+        <item>Bank</item>
+        <item>Barbican</item>
+        <item>Bayswater</item>
+        <item>Blackfriars</item>
+        <item>Bond Street</item>
+        <item>Borough</item>
+        <item>Cannon Street</item>
+        <item>Chancery Lane</item>
+        <item>Charing Cross</item>
+        <item>Covent Garden</item>
+        <item>Earl\u0027s Court</item>
+        <item>Edgware Road (Bakerloo)</item>
+        <item>Edgware Road (Circle)</item>
+        <item>Elephant \u0026 Castle</item>
+        <item>Embankment</item>
+        <item>Euston</item>
+        <item>Euston Square</item>
+        <item>Farringdon</item>
+        <item>Gloucester Road</item>
+        <item>Goodge Street</item>
+        <item>Great Portland Street</item>
+        <item>Green Park</item>
+        <item>High Street Kensington</item>
+        <item>Holborn</item>
+        <item>Hyde Park Corner</item>
+        <item>King\u0027s Cross St Pancras</item>
+        <item>Knightsbridge</item>
+        <item>Lambeth North</item>
+        <item>Lancaster Gate</item>
+        <item>Leicester Square</item>
+        <item>Liverpool Street</item>
+        <item>London Bridge</item>
+        <item>Mansion House</item>
+        <item>Marble Arch</item>
+        <item>Monument</item>
+        <item>Moorgate</item>
+        <item>Notting Hill Gate</item>
+        <item>Old Street</item>
+        <item>Oxford Circus</item>
+        <item>Paddington</item>
+        <item>Picadilly Circus</item>
+        <item>Pimlico</item>
+        <item>Queensway</item>
+        <item>Regent\u0027s Park</item>
+        <item>Russell Square</item>
+        <item>Sloane Square</item>
+        <item>South Kensington</item>
+        <item>Southwark</item>
+        <item>St James\u0027s Park</item>
+        <item>St Paul\u0027s</item>
+        <item>Temple</item>
+        <item>Tottenham Court Road</item>
+        <item>Tower Hill</item>
+        <item>Vauxhall</item>
+        <item>Victoria</item>
+        <item>Warren Street</item>
+        <item>Waterloo</item>
+        <item>Westminister</item>
+    </string-array>
+
+    <string-array name="availableLines">
+        <item>Placeholder</item>
+        <item>Circle, Metropolitan</item>
+        <item>District, Hammersmith \u0026 City</item>
+        <item>Northern</item>
+        <item>Bakerloo, Circle, Hammersmith \u0026 City, Jubilee, Metropolitan</item>
+        <item>Central, DLR, Northern, Waterloo \u0026 City</item>
+        <item>Circle, Hammersmith \u0026 City, Metrolpolitan</item>
+        <item>Circle, District</item>
+        <item>Circle, District</item>
+        <item>Central, Jubilee</item>
+        <item>Northern</item>
+        <item>Circle, District</item>
+        <item>Central</item>
+        <item>Northern</item>
+        <item>Picadilly</item>
+        <item>District, Picadilly</item>
+        <item>Bakerloo</item>
+        <item>Circle, District, Hammersmith \u0026 City</item>
+        <item>Bakerloo, Northern</item>
+        <item>Bakerloo, Circle, District, Northern</item>
+        <item>Northern, Victoria</item>
+        <item>Circle, Hammersmith \u0026 City, Metropolitan</item>
+        <item>Circle, Hammersmith \u0026 City, Metropolitan</item>
+        <item>Circle, District, Picadilly</item>
+        <item>Northern</item>
+        <item>Circle, Hammersmith \u0026 City, Metropolitan</item>
+        <item>Jubilee, Picadilly, Victoria</item>
+        <item>Circle, District</item>
+        <item>Central, Picadilly</item>
+        <item>Picadilly</item>
+        <item>Circle, Hammersmith \u0026 City, Metropolitan, Northern, Picadilly, Victoria</item>
+        <item>Picadilly</item>
+        <item>Bakerloo</item>
+        <item>Central</item>
+        <item>Northern</item>
+        <item>Central, Circle, Hammersmith \u0026 City, Metropolitan</item>
+        <item>Jubilee, Northern</item>
+        <item>Circle, District</item>
+        <item>Central</item>
+        <item>Circle, District</item>
+        <item>Northern</item>
+        <item>Central, Circle, District</item>
+        <item>Northern</item>
+        <item>Bakerloo, Central, Victoria</item>
+        <item>Circle, Hammersmith \u0026 City, District, Bakerloo</item>
+        <item>Bakerloo, Picadilly</item>
+        <item>Victoria</item>
+        <item>Central</item>
+        <item>Bakerloo</item>
+        <item>Picadilly</item>
+        <item>Circle, District</item>
+        <item>Circle, District, Picadilly</item>
+        <item>Jubilee</item>
+        <item>Circle, District</item>
+        <item>Central</item>
+        <item>Circle, District</item>
+        <item>Central</item>
+        <item>Circle, District</item>
+        <item>Victoria</item>
+        <item>Circle, District, Victoria</item>
+        <item>Northern, Victoria</item>
+        <item>Bakerloo, Jubilee, Northern</item>
+        <item>Jubilee, Circle, District</item>
+
+    </string-array>
+
+    <string-array name="busiestTimes">
+        <item>Placeholder</item>
+        <item>17:30 - 17:45</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:15</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:30 - 17:45</item>
+        <item>09:30 - 09:45</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:15 - 17:30</item>
+        <item>17:30 - 17:45</item>
+        <item>17:30 - 17:45</item>
+        <item>08:30 - 08:45</item>
+        <item>18:00 - 18:15</item>
+        <item>08:15 - 08:30</item>
+        <item>17:30 - 17:45</item>
+        <item>17:30 - 17:45</item>
+        <item>17:00 - 17:15</item>
+        <item>17:30 - 17:45</item>
+        <item>17:30 - 17:45</item>
+        <item>17:30 - 17:45</item>
+        <item>17:45 - 18:00</item>
+        <item>17:15 - 17:30</item>
+        <item>17:30 - 17:45</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>17:00 - 17:15</item>
+        <item>17:45 - 18:00</item>
+        <item>18:00 - 18:15</item>
+        <item>17:15 - 17:30</item>
+        <item>08:30 - 08:45</item>
+        <item>18:00 - 18:15</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>18:00 - 18:15</item>
+        <item>18:00 - 18:15</item>
+        <item>17:45 - 18:00</item>
+        <item>17:45 - 18:00</item>
+        <item>18:00 - 18:15</item>
+        <item>17:45 - 18:00</item>
+        <item>08:30 - 08:45</item>
+        <item>18:00 - 18:15</item>
+        <item>17:45 - 18:00</item>
+        <item>08:30 - 08:45</item>
+        <item>17:15 - 17:30</item>
+        <item>17:00 - 17:15</item>
+        <item>18:00 - 18:15</item>
+        <item>17:15 - 17:30</item>
+        <item>17:30 - 17:45</item>
+        <item>17:30 - 17:45</item>
+        <item>17:45 - 18:00</item>
+        <item>18:00 - 18:15</item>
+        <item>18:00 - 18:15</item>
+        <item>17:30 - 17:45</item>
+        <item>17:45 - 18:00</item>
+        <item>08:30 - 08:45</item>
+        <item>17:45 - 18:00</item>
+        <item>08:30 - 08:45</item>
+        <item>17:45 - 18:00</item>
+
+
+    </string-array>
+
+    <string-array name="gapList">
+        <item>Placeholder</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="accessibilityList">
+        <item>Place Holder</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+        <item>Non Step-Free</item>
+        <item>Step-Free</item>
+        <item>Step-Free</item>
+    </string-array>
+
+
+</resources>
